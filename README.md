@@ -1,6 +1,6 @@
 # Clase2_IntroJavascript
 
-Test URL: https://juliancrespi.github.io/Clase1_IntroJavascript/
+Test URL: https://juliancrespi.github.io/Clase2IntroJavascript/
 
 Intro to Javascript Condiciones for Desafio Latam Fullstack Javascript course
 #
