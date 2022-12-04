@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+<script src="./assets/js/script.js"></script>
+<link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!--Desafio Parte 1-->
+
+    <div class="container">
+    <h1>Desafio Parte 1</h1>
+    <h3>Click imagen para mostrar el borde</h3>
+    <img src="./assets/img/RickMorty.jpg" alt="RickMorty" id="imgRickMorty" onclick="borderFunction()">
+</div>
+<hr>
+
+    <!--Desafio Parte 2-->
+
+<div class="container">
+    <h1>Desafio Parte 2</h1>
+    <h3>Puedes llevar hasta 10 stickers en total</h3>
+    <br>
+
+<div class="stickers">        
+    
+    <div>
+    <img src="./assets/img/Avion.png" alt="Avion">
+    <br>
+    <input type="number" placeholder="Cantidad" id="inputAvion">
+    </div>
+    
+    <div>
+    <img src="./assets/img/Calavera.png" alt="Calavera">
+    <br>
+    <input type="number" placeholder="Cantidad" id="inputCalavera">
+    </div>
+
+    <div>
+    <img src="./assets/img/Panda.png" alt="Panda">
+    <br>
+    <input type="number" placeholder="Cantidad" id="inputPanda">
+    </div>
+    
+</div>
+<br>
+<h4 id="textoVerifica">Verifica tus stickers</h4>
+
+<button onclick="verificar()">Verificar</button>
+
+</div>
+<hr>
+
+<!--Desafio Parte 3-->
+
+<div class="container">
+    <h1>Desafio Parte 3</h1>
+    <h3>Ingresa el Password</h3>
+
+<select name="select1" id="opSelect1">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+
+<select name="select2" id="opSelect2">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+
+<select name="select3" id="opSelect3">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+<br>
+<br>
+<button onclick="ingresar()">Ingresar</button>
+<br>
+<h3 id="resultadoIngresar"></h3>
+<br>
+
+</div>
+
+</body>
+</html>
+
+

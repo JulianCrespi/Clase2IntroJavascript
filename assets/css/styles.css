@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    text-align: center;
+}
+
+.stickers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.stickers img {
+width: 150px;
+height: 150px;
+object-fit: contain;
+}
+
+.stickers div {
+margin: 5px 10px;
+}
